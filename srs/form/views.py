@@ -35,8 +35,8 @@ def appform(request):
 		form_instance = appform1.objects.create(fname=fname,lname=lname, email=email,contact_number=contact_number,dob=dob,gender=gender,boe=boe,mothna=mothna,mothc=mothc,motho=motho,fathna=fathna,fathc=fathc,fatho=fatho, ques= ques, padd1=padd1,padd2=padd2,pcountry=pcountry,pstate=pstate,pcity=pcity,ppincode=ppincode)
 	
 		
-		return render(request,'reg2.html',{'forms':form_instance})
-		return HttpResponse("<h3>Successfullty Registered</h3>")
+		#return render(request,'reg2.html',{'forms':form_instance})
+		#return HttpResponse("<h3>Successfully Registered</h3>")
 		#messages.error(request,'Succesfully Registered')
-		return redirect('index')
+		return redirect('/blog')
 

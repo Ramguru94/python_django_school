@@ -9,5 +9,6 @@ urlpatterns = [
     #path('login-signup/', views.loginsignup, name = 'loginsignup'),
     path('signup/', views.signup, name='signup'),
     path('login/',views.login_view,name="login_view"),
+    #path('blog/',views.login_view,name="blog"),
 
 ]
