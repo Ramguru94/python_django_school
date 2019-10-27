@@ -112,7 +112,6 @@ body, html {
 </style>
 <body>
 
-<a href = "https://www.iiitnr.ac.in/"><img class="imgRight" title="IIIT Naya Raipur" alt="IIIT Naya Raipur" src="https://www.iiitnr.ac.in/sites/all/themes/iiit/images/Headingwebsite.jpg" width="1300px"></a>
 
 <form id = "regForm" action="#" method = "POST" >
          {% csrf_token %}
@@ -145,14 +144,6 @@ body, html {
 
 
     <h1><strong>Address Details:</strong></h1>
-    <h4><strong>Correspondence Address:</strong></h4>
-    <p>Address Line 1:<input  type="text" name="ad1" required data-validation-required-message="Please fill in this field." placeholder="Enter address line 1"></p>
-    <p>Address Line 2:<input  type="text" name="ad2" placeholder="Enter address line 2"></p>
-    <p>Country:<input  type="text" name="con" required data-validation-required-message="Please fill in this field." placeholder="Country"></p>
-    <p>State:<input  type="text" name="state" required data-validation-required-message="Please fill in this field." placeholder="State"></p>
-    <p>City:<input  type="text" name="city" required data-validation-required-message="Please fill in this field." placeholder="City"></p>
-    <p>Pin Code:<input  type="text" name="pc" required data-validation-required-message="Please fill in this field." placeholder="Pin Code"></p>
-
      <h4><strong>Permanent Address:</strong></h4>
     <p>Address Line 1:<input  type="text" name="pad1" placeholder="Enter address line 1"></p>
     <p>Address Line 2:<input  type="text" name="pad2" placeholder="Enter address line 2"></p>
@@ -171,14 +162,13 @@ body, html {
  <p>1. I have checked all the entries made by me in the form. Any wrong information given by me will lead to cancellation of my admission and also penal action against me.<br />
 2. The information declared here is true and accurate to the best of my knowledge.<br />
 3. I further affirm that I have not been involved in any malpractice/use of unfair means(UFM) in any examination taken by me and no judicial proceeding is pending against me.<br />
-4. I understand that in the event of my not fulfilling all requirements, the International Institute of Information Technology, Naya Raipur may not consider/may cancel my candidature.<br />
-5. I declare that I will submit myself to the disciplinary jurisdiction of the authorities of the International Institute of Information Technology, Naya Raipur which may be vested with the powers to exercise discipline under the Act, the Ordinances and the Rules that may be framed by the Institute from time to time.</p>
 </div>
 
+<center><button class="button" type="submit" name="Submit" >Submit</button></center>
 
 </form>
 
-<center><button class="button" type="submit" name="Submit" >Submit</button></center>
+
 
 
 </body>

@@ -25,7 +25,7 @@ SECRET_KEY = 's!(pv1#ok^bu574mhc)#8%mov@%hiituh3y&660uch64kkafsx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['52.12.207.70']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -78,12 +78,12 @@ WSGI_APPLICATION = 'srs.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'sqlite3',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'blog_data',
+        'USER': 'ramguru',
+        'PASSWORD': 'ramguru',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
     }
 }
 
